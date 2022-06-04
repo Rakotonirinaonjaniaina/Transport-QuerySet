@@ -21,3 +21,15 @@ insert into chauffeur (nom_complet, contact_chauffeur, mail_chauffeur, id_vehicu
 insert into chauffeur (nom_complet, contact_chauffeur, mail_chauffeur, id_vehicule) values ('JONATHAN', '032 12 145 25', 'jo@gmail.com', 8);
 insert into chauffeur (nom_complet, contact_chauffeur, mail_chauffeur, id_vehicule) values ('FANIRY Jess', '033 23 123 32', 'jess@gmail.com', 9);
 insert into chauffeur (nom_complet, contact_chauffeur, mail_chauffeur, id_vehicule) values ('ANDRY Fetra', '033 25 258 85', 'andry@gmail.com', 10);
+
+-- insert reserver
+insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (1, 4, 161, 1, '2022-10-01',40000);
+insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (2, 4, 161, 2, '2022-10-09',40000);
+insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (3, 4, 161, 1, '2022-10-25',20000);
+insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (4, 4, 161, 1, '2022-10-09',40000);
+insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (5, 4, 161, 3, '2022-10-09',40000);
+insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (6, 4, 161, 2, '2022-10-01',40000);
+insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (7, 4, 161, 1, '2022-10-05',20000);
+insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (8, 4, 161, 1, '2022-10-22',40000);
+insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (9, 4, 161, 1, '2022-10-02',40000);
+insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (10, 4, 161, 1, '2022-10-04',40000);
