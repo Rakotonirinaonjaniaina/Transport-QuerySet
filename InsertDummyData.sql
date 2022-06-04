@@ -138,3 +138,24 @@ insert into client (nom_client, prenom_client, contact) values ('Benetta', 'Weak
 insert into client (nom_client, prenom_client, contact) values ('Brooke', 'Bodemeaid', '+261 334598977');
 
 
+-- insert offre
+insert into offre (id_offre, tarif, type) values (1, 62520, 'Premium');
+insert into offre (id_offre, tarif, type) values (2, 35385, 'Classic');
+insert into offre (id_offre, tarif, type) values (3, 92864, 'VIP');
+insert into offre (id_offre, tarif, type) values (4, 59911, 'Lite');
+insert into offre (id_offre, tarif, type) values (5, 43517, 'Lite');
+insert into offre (id_offre, tarif, type) values (6, 83666, 'Premium');
+insert into offre (id_offre, tarif, type) values (7, 41605, 'Lite');
+insert into offre (id_offre, tarif, type) values (8, 30389, 'Classic');
+insert into offre (id_offre, tarif, type) values (9, 95117, 'VIP');
+insert into offre (id_offre, tarif, type) values (10, 40639, 'Lite');
+insert into offre (id_offre, tarif, type) values (11, 63505, 'Premium');
+insert into offre (id_offre, tarif, type) values (12, 68584, 'Premium');
+insert into offre (id_offre, tarif, type) values (13, 77580, 'Premium');
+insert into offre (id_offre, tarif, type) values (14, 84136, 'Premium');
+insert into offre (id_offre, tarif, type) values (15, 56468, 'Lite');
+insert into offre (id_offre, tarif, type) values (16, 72138, 'Premium');
+insert into offre (id_offre, tarif, type) values (17, 37272, 'Classic');
+insert into offre (id_offre, tarif, type) values (18, 37721, 'Classic');
+insert into offre (id_offre, tarif, type) values (19, 36307, 'Classic');
+insert into offre (id_offre, tarif, type) values (20, 59932, 'Lite');
