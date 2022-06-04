@@ -1,10 +1,12 @@
-insert into ville (id_ville, nom_ville) values (1, 'Antananarivo');
-insert into ville (id_ville, nom_ville) values (2, 'Brickaville');
-insert into ville (id_ville, nom_ville) values (3, 'Tamatave');
-insert into ville (id_ville, nom_ville) values (4, 'Antsiranana');
-insert into ville (id_ville, nom_ville) values (5, 'Toliara');
-insert into ville (id_ville, nom_ville) values (36, 'Majunga');
-insert into ville (id_ville, nom_ville) values (37, 'Foulpointe');
-insert into ville (id_ville, nom_ville) values (38, 'Fianarantsoa');
-insert into ville (id_ville, nom_ville) values (39, 'Mantasoa');
-insert into ville (id_ville, nom_ville) values (40, 'Morondava');
+-- insert ville
+
+insert into ville (id_ville, nom_ville) values ('Antananarivo');
+insert into ville (id_ville, nom_ville) values ('Brickaville');
+insert into ville (id_ville, nom_ville) values ('Tamatave');
+insert into ville (id_ville, nom_ville) values ('Antsiranana');
+insert into ville (id_ville, nom_ville) values ('Toliara');
+insert into ville (id_ville, nom_ville) values ('Majunga');
+insert into ville (id_ville, nom_ville) values ('Foulpointe');
+insert into ville (id_ville, nom_ville) values ('Fianarantsoa');
+insert into ville (id_ville, nom_ville) values ('Mantasoa');
+insert into ville (id_ville, nom_ville) values ('Morondava');
