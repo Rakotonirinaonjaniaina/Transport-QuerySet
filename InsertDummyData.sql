@@ -33,3 +33,15 @@ insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, m
 insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (8, 4, 161, 1, '2022-10-22',40000);
 insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (9, 4, 161, 1, '2022-10-02',40000);
 insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (10, 4, 161, 1, '2022-10-04',40000);
+
+-- insert vehicules
+insert into vehicules (nombre_places, places_dispo, matricule) values (24, 0, '1236321');
+insert into vehicules (nombre_places, places_dispo, matricule) values (24, 2, '8663633');
+insert into vehicules (nombre_places, places_dispo, matricule) values (24, 0, '3412509');
+insert into vehicules (nombre_places, places_dispo, matricule) values (24, 0, '2653955');
+insert into vehicules (nombre_places, places_dispo, matricule) values (24, 0, '5582044');
+insert into vehicules (nombre_places, places_dispo, matricule) values (24, 0, '5896222');
+insert into vehicules (nombre_places, places_dispo, matricule) values (24, 7, '4935453');
+insert into vehicules (nombre_places, places_dispo, matricule) values (24, 8, '4725919');
+insert into vehicules (nombre_places, places_dispo, matricule) values (24, 9, '4808146');
+insert into vehicules (nombre_places, places_dispo, matricule) values (24, 10, '4275558');
