@@ -10,6 +10,28 @@ insert into ville (nom_ville) values ('Fianarantsoa');
 insert into ville (nom_ville) values ('Mantasoa');
 insert into ville (nom_ville) values ('Morondava');
 
+-- insert voyage referecing ville id
+insert into voyage (id_voyage, jour_depart, heure_depart, id_ville_depart, id_ville_arrivee) values (1, '2021-08-31', '7:08 AM', 4, 5);
+insert into voyage (id_voyage, jour_depart, heure_depart, id_ville_depart, id_ville_arrivee) values (2, '2020-07-27', '10:56 AM', 4, 9);
+insert into voyage (id_voyage, jour_depart, heure_depart, id_ville_depart, id_ville_arrivee) values (3, '2022-04-08', '1:01 PM', 2, 10);
+insert into voyage (id_voyage, jour_depart, heure_depart, id_ville_depart, id_ville_arrivee) values (4, '2022-04-10', '12:53 PM', 5, 5);
+insert into voyage (id_voyage, jour_depart, heure_depart, id_ville_depart, id_ville_arrivee) values (5, '2020-06-11', '5:30 PM', 9, 7);
+insert into voyage (id_voyage, jour_depart, heure_depart, id_ville_depart, id_ville_arrivee) values (6, '2021-06-01', '9:13 PM', 8, 5);
+insert into voyage (id_voyage, jour_depart, heure_depart, id_ville_depart, id_ville_arrivee) values (7, '2021-06-12', '6:28 PM', 6, 10);
+insert into voyage (id_voyage, jour_depart, heure_depart, id_ville_depart, id_ville_arrivee) values (8, '2020-08-06', '9:39 AM', 8, 1);
+insert into voyage (id_voyage, jour_depart, heure_depart, id_ville_depart, id_ville_arrivee) values (9, '2021-10-03', '9:19 AM', 6, 9);
+insert into voyage (id_voyage, jour_depart, heure_depart, id_ville_depart, id_ville_arrivee) values (10, '2021-01-06', '4:27 PM', 1, 3);
+insert into voyage (id_voyage, jour_depart, heure_depart, id_ville_depart, id_ville_arrivee) values (11, '2022-05-28', '8:48 AM', 7, 2);
+insert into voyage (id_voyage, jour_depart, heure_depart, id_ville_depart, id_ville_arrivee) values (12, '2021-12-03', '6:20 AM', 2, 6);
+insert into voyage (id_voyage, jour_depart, heure_depart, id_ville_depart, id_ville_arrivee) values (13, '2020-10-09', '5:42 PM', 8, 7);
+insert into voyage (id_voyage, jour_depart, heure_depart, id_ville_depart, id_ville_arrivee) values (14, '2021-08-27', '2:55 PM', 4, 7);
+insert into voyage (id_voyage, jour_depart, heure_depart, id_ville_depart, id_ville_arrivee) values (15, '2021-06-22', '9:37 PM', 3, 10);
+insert into voyage (id_voyage, jour_depart, heure_depart, id_ville_depart, id_ville_arrivee) values (16, '2020-11-28', '6:58 AM', 6, 8);
+insert into voyage (id_voyage, jour_depart, heure_depart, id_ville_depart, id_ville_arrivee) values (17, '2021-12-07', '8:09 AM', 4, 10);
+insert into voyage (id_voyage, jour_depart, heure_depart, id_ville_depart, id_ville_arrivee) values (18, '2020-07-16', '2:56 PM', 1, 10);
+insert into voyage (id_voyage, jour_depart, heure_depart, id_ville_depart, id_ville_arrivee) values (19, '2020-09-14', '8:46 AM', 3, 10);
+insert into voyage (id_voyage, jour_depart, heure_depart, id_ville_depart, id_ville_arrivee) values (20, '2021-11-26', '9:22 PM', 1, 2);
+
 
 -- insert chauffeur
 insert into chauffeur (nom_complet, contact_chauffeur, mail_chauffeur, id_vehicule) values ('RAKOTONDRINA Paul', '033 12 365 15', 'ndrina@gmail.com', 1);
