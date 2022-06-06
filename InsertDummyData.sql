@@ -1,14 +1,14 @@
 -- insert ville
-insert into ville (nom_ville) values ('Antananarivo');
-insert into ville (nom_ville) values ('Brickaville');
-insert into ville (nom_ville) values ('Tamatave');
-insert into ville (nom_ville) values ('Antsiranana');
-insert into ville (nom_ville) values ('Toliara');
-insert into ville (nom_ville) values ('Majunga');
-insert into ville (nom_ville) values ('Foulpointe');
-insert into ville (nom_ville) values ('Fianarantsoa');
-insert into ville (nom_ville) values ('Mantasoa');
-insert into ville (nom_ville) values ('Morondava');
+insert into ville (id_ville,nom_ville) values (1,'Antananarivo');
+insert into ville (id_vile,nom_ville) values (2,'Brickaville');
+insert into ville (id_ville,nom_ville) values (3,'Tamatave');
+insert into ville (id_ville,nom_ville) values (4,'Antsiranana');
+insert into ville (id_ville,nom_ville) values (5,'Toliara');
+insert into ville (id_ville,nom_ville) values (6,'Majunga');
+insert into ville (id_ville,nom_ville) values (7,'Foulpointe');
+insert into ville (id_ville,nom_ville) values (8,'Fianarantsoa');
+insert into ville (id_ville,nom_ville) values (9,'Mantasoa');
+insert into ville (id_ville,nom_ville) values (10,'Morondava');
 
 -- insert voyage referecing ville id
 insert into voyage (id_voyage, jour_depart, heure_depart, id_ville_depart, id_ville_arrivee) values (1, '2021-08-31', '7:08 AM', 4, 5);
