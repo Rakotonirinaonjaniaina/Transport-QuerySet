@@ -202,3 +202,58 @@ insert into offre (id_offre, tarif, type) values (17, 37272, 'Classic');
 insert into offre (id_offre, tarif, type) values (18, 37721, 'Classic');
 insert into offre (id_offre, tarif, type) values (19, 36307, 'Classic');
 insert into offre (id_offre, tarif, type) values (20, 59932, 'Lite');
+
+
+
+--insert maintenance
+insert into maintenance (cout, nom_maintenance) values (288126, 'dolor sit');
+insert into maintenance (cout, nom_maintenance) values (190056, 'sollicitudin ut suscipit');
+insert into maintenance (cout, nom_maintenance) values (65743, 'orci luctus et ultrices posuere');
+insert into maintenance (cout, nom_maintenance) values (220696, 'turpis');
+insert into maintenance (cout, nom_maintenance) values (249529, 'ut nulla sed');
+insert into maintenance (cout, nom_maintenance) values (371095, 'vulputate ut');
+insert into maintenance (cout, nom_maintenance) values (334462, 'sit amet');
+insert into maintenance (cout, nom_maintenance) values (648529, 'pharetra magna vestibulum aliquet');
+insert into maintenance (cout, nom_maintenance) values (661740, 'proin leo odio');
+insert into maintenance (cout, nom_maintenance) values (272962, 'sapien');
+insert into maintenance (cout, nom_maintenance) values (188378, 'turpis enim blandit mi in');
+insert into maintenance (cout, nom_maintenance) values (392798, 'phasellus id sapien in sapien');
+insert into maintenance (cout, nom_maintenance) values (605782, 'nulla ac enim in');
+insert into maintenance (cout, nom_maintenance) values (550497, 'vel nisl duis ac');
+insert into maintenance (cout, nom_maintenance) values (69099, 'turpis elementum ligula');
+insert into maintenance (cout, nom_maintenance) values (21771, 'quam sollicitudin vitae');
+insert into maintenance (cout, nom_maintenance) values (532841, 'cras');
+insert into maintenance (cout, nom_maintenance) values (282509, 'primis in faucibus');
+insert into maintenance (cout, nom_maintenance) values (515919, 'etiam pretium');
+insert into maintenance (cout, nom_maintenance) values (455597, 'iaculis congue vivamus metus arcu');
+insert into maintenance (cout, nom_maintenance) values (338905, 'nulla ultrices aliquet maecenas');
+insert into maintenance (cout, nom_maintenance) values (244966, 'dui');
+insert into maintenance (cout, nom_maintenance) values (699541, 'at');
+insert into maintenance (cout, nom_maintenance) values (445151, 'nulla quisque arcu libero rutrum');
+insert into maintenance (cout, nom_maintenance) values (567081, 'integer non velit donec diam');
+insert into maintenance (cout, nom_maintenance) values (673217, 'integer');
+insert into maintenance (cout, nom_maintenance) values (155729, 'morbi porttitor lorem');
+insert into maintenance (cout, nom_maintenance) values (699157, 'dolor morbi vel lectus');
+insert into maintenance (cout, nom_maintenance) values (121857, 'felis donec');
+insert into maintenance (cout, nom_maintenance) values (27350, 'libero nullam sit');
+insert into maintenance (cout, nom_maintenance) values (185479, 'quis turpis eget elit sodales');
+insert into maintenance (cout, nom_maintenance) values (504162, 'ultrices posuere');
+insert into maintenance (cout, nom_maintenance) values (476847, 'nunc nisl duis bibendum');
+insert into maintenance (cout, nom_maintenance) values (419737, 'posuere cubilia');
+insert into maintenance (cout, nom_maintenance) values (632855, 'praesent blandit lacinia erat');
+insert into maintenance (cout, nom_maintenance) values (334960, 'tellus semper interdum mauris');
+insert into maintenance (cout, nom_maintenance) values (415574, 'ac diam cras');
+insert into maintenance (cout, nom_maintenance) values (134047, 'faucibus orci luctus et ultrices');
+insert into maintenance (cout, nom_maintenance) values (654938, 'nibh in');
+insert into maintenance (cout, nom_maintenance) values (295940, 'convallis');
+insert into maintenance (cout, nom_maintenance) values (469705, 'dui nec nisi');
+insert into maintenance (cout, nom_maintenance) values (242008, 'turpis');
+insert into maintenance (cout, nom_maintenance) values (593100, 'vestibulum sagittis sapien');
+insert into maintenance (cout, nom_maintenance) values (50562, 'justo nec condimentum neque sapien');
+insert into maintenance (cout, nom_maintenance) values (40843, 'molestie lorem quisque ut erat');
+insert into maintenance (cout, nom_maintenance) values (328580, 'nulla tempus vivamus in');
+insert into maintenance (cout, nom_maintenance) values (486561, 'mauris laoreet ut rhoncus');
+insert into maintenance (cout, nom_maintenance) values (289644, 'sem fusce consequat nulla');
+insert into maintenance (cout, nom_maintenance) values (318100, 'massa volutpat');
+insert into maintenance (cout, nom_maintenance) values (448912, 'eget eros elementum pellentesque');
+
