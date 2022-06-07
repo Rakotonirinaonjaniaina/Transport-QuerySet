@@ -1,14 +1,14 @@
 -- insert ville
-insert into ville (nom_ville) values ('Antananarivo');
-insert into ville (nom_ville) values ('Brickaville');
-insert into ville (nom_ville) values ('Tamatave');
-insert into ville (nom_ville) values ('Antsiranana');
-insert into ville (nom_ville) values ('Toliara');
-insert into ville (nom_ville) values ('Majunga');
-insert into ville (nom_ville) values ('Foulpointe');
-insert into ville (nom_ville) values ('Fianarantsoa');
-insert into ville (nom_ville) values ('Mantasoa');
-insert into ville (nom_ville) values ('Morondava');
+insert into ville (id_ville,nom_ville) values (1,'Antananarivo');
+insert into ville (id_vile,nom_ville) values (2,'Brickaville');
+insert into ville (id_ville,nom_ville) values (3,'Tamatave');
+insert into ville (id_ville,nom_ville) values (4,'Antsiranana');
+insert into ville (id_ville,nom_ville) values (5,'Toliara');
+insert into ville (id_ville,nom_ville) values (6,'Majunga');
+insert into ville (id_ville,nom_ville) values (7,'Foulpointe');
+insert into ville (id_ville,nom_ville) values (8,'Fianarantsoa');
+insert into ville (id_ville,nom_ville) values (9,'Mantasoa');
+insert into ville (id_ville,nom_ville) values (10,'Morondava');
 
 -- insert voyage referecing ville id
 insert into voyage (id_voyage, jour_depart, heure_depart, id_ville_depart, id_ville_arrivee) values (1, '2021-08-31', '7:08 AM', 4, 5);
@@ -32,6 +32,27 @@ insert into voyage (id_voyage, jour_depart, heure_depart, id_ville_depart, id_vi
 insert into voyage (id_voyage, jour_depart, heure_depart, id_ville_depart, id_ville_arrivee) values (19, '2020-09-14', '8:46 AM', 3, 10);
 insert into voyage (id_voyage, jour_depart, heure_depart, id_ville_depart, id_ville_arrivee) values (20, '2021-11-26', '9:22 PM', 1, 2);
 
+-- insert vehicules
+insert into vehicules (nombre_places, places_dispo, matricule)
+values (24, 0, '1236321');
+insert into vehicules (nombre_places, places_dispo, matricule)
+values (24, 2, '8663633');
+insert into vehicules (nombre_places, places_dispo, matricule)
+values (24, 0, '3412509');
+insert into vehicules (nombre_places, places_dispo, matricule)
+values (24, 0, '2653955');
+insert into vehicules (nombre_places, places_dispo, matricule)
+values (24, 0, '5582044');
+insert into vehicules (nombre_places, places_dispo, matricule)
+values (24, 0, '5896222');
+insert into vehicules (nombre_places, places_dispo, matricule)
+values (24, 7, '4935453');
+insert into vehicules (nombre_places, places_dispo, matricule)
+values (24, 8, '4725919');
+insert into vehicules (nombre_places, places_dispo, matricule)
+values (24, 9, '4808146');
+insert into vehicules (nombre_places, places_dispo, matricule)
+values (24, 10, '4275558');
 
 -- insert chauffeur
 insert into chauffeur (nom_complet, contact_chauffeur, mail_chauffeur, id_vehicule) values ('RAKOTONDRINA Paul', '033 12 365 15', 'ndrina@gmail.com', 1);
