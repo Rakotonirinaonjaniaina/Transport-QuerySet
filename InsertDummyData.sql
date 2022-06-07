@@ -76,28 +76,6 @@ insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, m
 insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (64, 6, 13, 20,'08/04/2022',250000);
 insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (12, 10, 4, 9, '19/07/2021', 100000);
 
--- insert vehicules
-insert into vehicules (nombre_places, places_dispo, matricule)
-values (24, 0, '1236321');
-insert into vehicules (nombre_places, places_dispo, matricule)
-values (24, 2, '8663633');
-insert into vehicules (nombre_places, places_dispo, matricule)
-values (24, 0, '3412509');
-insert into vehicules (nombre_places, places_dispo, matricule)
-values (24, 0, '2653955');
-insert into vehicules (nombre_places, places_dispo, matricule)
-values (24, 0, '5582044');
-insert into vehicules (nombre_places, places_dispo, matricule)
-values (24, 0, '5896222');
-insert into vehicules (nombre_places, places_dispo, matricule)
-values (24, 7, '4935453');
-insert into vehicules (nombre_places, places_dispo, matricule)
-values (24, 8, '4725919');
-insert into vehicules (nombre_places, places_dispo, matricule)
-values (24, 9, '4808146');
-insert into vehicules (nombre_places, places_dispo, matricule)
-values (24, 10, '4275558');
-
 -- insert chauffeur
 insert into chauffeur (nom_complet, contact_chauffeur, mail_chauffeur, id_vehicule) values ('RAKOTONDRINA Paul', '033 12 365 15', 'ndrina@gmail.com', 1);
 insert into chauffeur (nom_complet, contact_chauffeur, mail_chauffeur, id_vehicule) values ('KOTO Nato', '034 56 566 54', 'nato@gmail.com', 2);
