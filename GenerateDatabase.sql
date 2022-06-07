@@ -1,5 +1,8 @@
 CREATE DATABASE transport;
 
+-- Connecting to the database
+\c
+
 -- table vehicules
 CREATE TABLE vehicules(
     id_vehicule serial PRIMARY KEY, 
