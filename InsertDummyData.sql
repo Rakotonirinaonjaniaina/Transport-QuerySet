@@ -136,6 +136,16 @@ values (24, 9, '4808146');
 insert into vehicules (nombre_places, places_dispo, matricule)
 values (24, 10, '4275558');
 
+-- insert utiliser
+insert into utiliser (id_vehicule, id_voyage) values (1, 2);
+insert into utiliser (id_vehicule, id_voyage) values (2, 3);
+insert into utiliser (id_vehicule, id_voyage) values (3, 5);
+insert into utiliser (id_vehicule, id_voyage) values (4, 7);
+insert into utiliser (id_vehicule, id_voyage) values (5, 4);
+insert into utiliser (id_vehicule, id_voyage) values (6, 10);
+insert into utiliser (id_vehicule, id_voyage) values (9, 6);
+insert into utiliser (id_vehicule, id_voyage) values (10, 1); 
+
 -- insert chauffeur
 insert into chauffeur (nom_complet, contact_chauffeur, mail_chauffeur, id_vehicule) values ('RAKOTONDRINA Paul', '033 12 365 15', 'ndrina@gmail.com', 1);
 insert into chauffeur (nom_complet, contact_chauffeur, mail_chauffeur, id_vehicule) values ('KOTO Nato', '034 56 566 54', 'nato@gmail.com', 2);
