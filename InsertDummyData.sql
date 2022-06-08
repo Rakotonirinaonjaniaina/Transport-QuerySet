@@ -54,6 +54,7 @@ insert into offre (id_offre, tarif, type) values (18, 37721, 'Classic');
 insert into offre (id_offre, tarif, type) values (19, 36307, 'Classic');
 insert into offre (id_offre, tarif, type) values (20, 59932, 'Lite');
 
+
 --Table reserver
 insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (97, 11, 18, 5, '18/04/2022', 100000);
 insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (2, 15, 4, 14,'23/03/2022',700000);
@@ -63,7 +64,7 @@ insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, m
 insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (43, 15, 8, 14, '06/06/2021', 250000);
 insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (40, 10, 4, 14, '06/05/2022', 275000);
 insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (89, 7, 1, 3, '22/10/2021',700000);
-insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (20, 5, 12, 13, '15/07/2021'700000);
+insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (20, 5, 12, 13, '15/07/2021',700000);
 insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (56, 2, 4, 1, '27/12/2021', 100000);
 insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (25, 15, 13, 8, '16/12/2021',75000);
 insert into reserver (id_client, id_offre, id_voyage, place, date_reservation, montant_paye) values (8, 20, 11, 3, '09/02/2022', 500000);
