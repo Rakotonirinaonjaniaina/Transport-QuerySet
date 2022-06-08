@@ -1,6 +1,6 @@
 -- insert ville
 insert into ville (id_ville,nom_ville) values (1,'Antananarivo');
-insert into ville (id_vile,nom_ville) values (2,'Brickaville');
+insert into ville (id_ville,nom_ville) values (2,'Brickaville');
 insert into ville (id_ville,nom_ville) values (3,'Tamatave');
 insert into ville (id_ville,nom_ville) values (4,'Antsiranana');
 insert into ville (id_ville,nom_ville) values (5,'Toliara');
@@ -46,7 +46,6 @@ insert into passer_par (id_ville, id_voyage) values (5, 13);
 insert into passer_par (id_ville, id_voyage) values (2, 11);
 insert into passer_par (id_ville, id_voyage) values (3, 14);
 insert into passer_par (id_ville, id_voyage) values (6, 7);
-insert into passer_par (id_ville, id_voyage) values (8, 2);
 insert into passer_par (id_ville, id_voyage) values (5, 18);
 insert into passer_par (id_ville, id_voyage) values (5, 12);
 insert into passer_par (id_ville, id_voyage) values (9, 1);
@@ -65,7 +64,6 @@ insert into passer_par (id_ville, id_voyage) values (3, 4);
 insert into passer_par (id_ville, id_voyage) values (9, 6);
 insert into passer_par (id_ville, id_voyage) values (6, 12);
 insert into passer_par (id_ville, id_voyage) values (4, 17);
-insert into passer_par (id_ville, id_voyage) values (9, 13);
 insert into passer_par (id_ville, id_voyage) values (4, 5);
 insert into passer_par (id_ville, id_voyage) values (6, 13);
 insert into passer_par (id_ville, id_voyage) values (5, 6);
@@ -74,11 +72,9 @@ insert into passer_par (id_ville, id_voyage) values (8, 8);
 insert into passer_par (id_ville, id_voyage) values (9, 8);
 insert into passer_par (id_ville, id_voyage) values (1, 4);
 insert into passer_par (id_ville, id_voyage) values (2, 6);
-insert into passer_par (id_ville, id_voyage) values (4, 13);
 insert into passer_par (id_ville, id_voyage) values (2, 19);
 insert into passer_par (id_ville, id_voyage) values (9, 10);
 insert into passer_par (id_ville, id_voyage) values (7, 3);
-insert into passer_par (id_ville, id_voyage) values (10, 18);
 insert into passer_par (id_ville, id_voyage) values (2, 9);
 insert into passer_par (id_ville, id_voyage) values (7, 12);
 insert into passer_par (id_ville, id_voyage) values (6, 3);
@@ -94,15 +90,11 @@ insert into passer_par (id_ville, id_voyage) values (3, 1);
 insert into passer_par (id_ville, id_voyage) values (2, 10);
 insert into passer_par (id_ville, id_voyage) values (1, 13);
 insert into passer_par (id_ville, id_voyage) values (10, 16);
-insert into passer_par (id_ville, id_voyage) values (1, 13);
-insert into passer_par (id_ville, id_voyage) values (4, 17);
 insert into passer_par (id_ville, id_voyage) values (7, 1);
 insert into passer_par (id_ville, id_voyage) values (7, 11);
 insert into passer_par (id_ville, id_voyage) values (10, 1);
 insert into passer_par (id_ville, id_voyage) values (8, 14);
 insert into passer_par (id_ville, id_voyage) values (2, 12);
-insert into passer_par (id_ville, id_voyage) values (9, 1);
-insert into passer_par (id_ville, id_voyage) values (6, 9);
 insert into passer_par (id_ville, id_voyage) values (5, 1);
 insert into passer_par (id_ville, id_voyage) values (3, 19);
 insert into passer_par (id_ville, id_voyage) values (4, 3);
@@ -110,31 +102,41 @@ insert into passer_par (id_ville, id_voyage) values (7, 9);
 insert into passer_par (id_ville, id_voyage) values (1, 19);
 insert into passer_par (id_ville, id_voyage) values (2, 4);
 insert into passer_par (id_ville, id_voyage) values (7, 13);
-insert into passer_par (id_ville, id_voyage) values (4, 5);
 insert into passer_par (id_ville, id_voyage) values (1, 18);
 insert into passer_par (id_ville, id_voyage) values (2, 18);
 
 -- insert vehicules
-insert into vehicules (nombre_places, places_dispo, matricule)
-values (24, 0, '1236321');
-insert into vehicules (nombre_places, places_dispo, matricule)
-values (24, 2, '8663633');
-insert into vehicules (nombre_places, places_dispo, matricule)
-values (24, 0, '3412509');
-insert into vehicules (nombre_places, places_dispo, matricule)
-values (24, 0, '2653955');
-insert into vehicules (nombre_places, places_dispo, matricule)
-values (24, 0, '5582044');
-insert into vehicules (nombre_places, places_dispo, matricule)
-values (24, 0, '5896222');
-insert into vehicules (nombre_places, places_dispo, matricule)
-values (24, 7, '4935453');
-insert into vehicules (nombre_places, places_dispo, matricule)
-values (24, 8, '4725919');
-insert into vehicules (nombre_places, places_dispo, matricule)
-values (24, 9, '4808146');
-insert into vehicules (nombre_places, places_dispo, matricule)
-values (24, 10, '4275558');
+insert into vehicules (id_vehicule, nombre_places, places_dispo, matricule)
+values (1,24, 0, '1236321');
+insert into vehicules (id_vehicule, nombre_places, places_dispo, matricule)
+values (2,24, 2, '8663633');
+insert into vehicules (id_vehicule, nombre_places, places_dispo, matricule)
+values (3,24, 0, '3412509');
+insert into vehicules (id_vehicule, nombre_places, places_dispo, matricule)
+values (4,24, 0, '2653955');
+insert into vehicules (id_vehicule, nombre_places, places_dispo, matricule)
+values (5,24, 0, '5582044');
+insert into vehicules (id_vehicule, nombre_places, places_dispo, matricule)
+values (6,24, 0, '5896222');
+insert into vehicules (id_vehicule, nombre_places, places_dispo, matricule)
+values (7,24, 7, '4935453');
+insert into vehicules (id_vehicule, nombre_places, places_dispo, matricule)
+values (8,24, 8, '4725919');
+insert into vehicules (id_vehicule, nombre_places, places_dispo, matricule)
+values (9,24, 9, '4808146');
+insert into vehicules (id_vehicule, nombre_places, places_dispo, matricule)
+values (10,24, 10, '4275558');
+
+
+-- insert utiliser
+insert into utiliser (id_vehicule, id_voyage) values (1, 2);
+insert into utiliser (id_vehicule, id_voyage) values (2, 3);
+insert into utiliser (id_vehicule, id_voyage) values (3, 5);
+insert into utiliser (id_vehicule, id_voyage) values (4, 7);
+insert into utiliser (id_vehicule, id_voyage) values (5, 4);
+insert into utiliser (id_vehicule, id_voyage) values (6, 10);
+insert into utiliser (id_vehicule, id_voyage) values (9, 6);
+insert into utiliser (id_vehicule, id_voyage) values (10, 1); 
 
 -- insert chauffeur
 insert into chauffeur (nom_complet, contact_chauffeur, mail_chauffeur, id_vehicule) values ('RAKOTONDRINA Paul', '033 12 365 15', 'ndrina@gmail.com', 1);
@@ -147,18 +149,6 @@ insert into chauffeur (nom_complet, contact_chauffeur, mail_chauffeur, id_vehicu
 insert into chauffeur (nom_complet, contact_chauffeur, mail_chauffeur, id_vehicule) values ('JONATHAN', '032 12 145 25', 'jo@gmail.com', 8);
 insert into chauffeur (nom_complet, contact_chauffeur, mail_chauffeur, id_vehicule) values ('FANIRY Jess', '033 23 123 32', 'jess@gmail.com', 9);
 insert into chauffeur (nom_complet, contact_chauffeur, mail_chauffeur, id_vehicule) values ('ANDRY Fetra', '033 25 258 85', 'andry@gmail.com', 10);
-
--- insert vehicules
-insert into vehicules (nombre_places, places_dispo, matricule) values (24, 0, '1236321');
-insert into vehicules (nombre_places, places_dispo, matricule) values (24, 2, '8663633');
-insert into vehicules (nombre_places, places_dispo, matricule) values (24, 0, '3412509');
-insert into vehicules (nombre_places, places_dispo, matricule) values (24, 0, '2653955');
-insert into vehicules (nombre_places, places_dispo, matricule) values (24, 0, '5582044');
-insert into vehicules (nombre_places, places_dispo, matricule) values (24, 0, '5896222');
-insert into vehicules (nombre_places, places_dispo, matricule) values (24, 7, '4935453');
-insert into vehicules (nombre_places, places_dispo, matricule) values (24, 8, '4725919');
-insert into vehicules (nombre_places, places_dispo, matricule) values (24, 9, '4808146');
-insert into vehicules (nombre_places, places_dispo, matricule) values (24, 10, '4275558');
 
 -- insert client
 insert into client (nom_client, prenom_client, contact) values ('Hilary', 'Grahlman', '+261 334800545');
