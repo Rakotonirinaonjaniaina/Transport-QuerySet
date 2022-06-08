@@ -158,18 +158,6 @@ insert into chauffeur (nom_complet, contact_chauffeur, mail_chauffeur, id_vehicu
 insert into chauffeur (nom_complet, contact_chauffeur, mail_chauffeur, id_vehicule) values ('FANIRY Jess', '033 23 123 32', 'jess@gmail.com', 9);
 insert into chauffeur (nom_complet, contact_chauffeur, mail_chauffeur, id_vehicule) values ('ANDRY Fetra', '033 25 258 85', 'andry@gmail.com', 10);
 
--- insert vehicules
-insert into vehicules (nombre_places, places_dispo, matricule) values (24, 0, '1236321');
-insert into vehicules (nombre_places, places_dispo, matricule) values (24, 2, '8663633');
-insert into vehicules (nombre_places, places_dispo, matricule) values (24, 0, '3412509');
-insert into vehicules (nombre_places, places_dispo, matricule) values (24, 0, '2653955');
-insert into vehicules (nombre_places, places_dispo, matricule) values (24, 0, '5582044');
-insert into vehicules (nombre_places, places_dispo, matricule) values (24, 0, '5896222');
-insert into vehicules (nombre_places, places_dispo, matricule) values (24, 7, '4935453');
-insert into vehicules (nombre_places, places_dispo, matricule) values (24, 8, '4725919');
-insert into vehicules (nombre_places, places_dispo, matricule) values (24, 9, '4808146');
-insert into vehicules (nombre_places, places_dispo, matricule) values (24, 10, '4275558');
-
 -- insert client
 insert into client (nom_client, prenom_client, contact) values ('Hilary', 'Grahlman', '+261 334800545');
 insert into client (nom_client, prenom_client, contact) values ('Mycah', 'De Biaggi', '+261 332854169');
