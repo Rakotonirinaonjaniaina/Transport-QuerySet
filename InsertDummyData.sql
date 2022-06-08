@@ -106,26 +106,27 @@ insert into passer_par (id_ville, id_voyage) values (1, 18);
 insert into passer_par (id_ville, id_voyage) values (2, 18);
 
 -- insert vehicules
-insert into vehicules (nombre_places, places_dispo, matricule)
-values (24, 0, '1236321');
-insert into vehicules (nombre_places, places_dispo, matricule)
-values (24, 2, '8663633');
-insert into vehicules (nombre_places, places_dispo, matricule)
-values (24, 0, '3412509');
-insert into vehicules (nombre_places, places_dispo, matricule)
-values (24, 0, '2653955');
-insert into vehicules (nombre_places, places_dispo, matricule)
-values (24, 0, '5582044');
-insert into vehicules (nombre_places, places_dispo, matricule)
-values (24, 0, '5896222');
-insert into vehicules (nombre_places, places_dispo, matricule)
-values (24, 7, '4935453');
-insert into vehicules (nombre_places, places_dispo, matricule)
-values (24, 8, '4725919');
-insert into vehicules (nombre_places, places_dispo, matricule)
-values (24, 9, '4808146');
-insert into vehicules (nombre_places, places_dispo, matricule)
-values (24, 10, '4275558');
+insert into vehicules (id_vehicule, nombre_places, places_dispo, matricule)
+values (1,24, 0, '1236321');
+insert into vehicules (id_vehicule, nombre_places, places_dispo, matricule)
+values (2,24, 2, '8663633');
+insert into vehicules (id_vehicule, nombre_places, places_dispo, matricule)
+values (3,24, 0, '3412509');
+insert into vehicules (id_vehicule, nombre_places, places_dispo, matricule)
+values (4,24, 0, '2653955');
+insert into vehicules (id_vehicule, nombre_places, places_dispo, matricule)
+values (5,24, 0, '5582044');
+insert into vehicules (id_vehicule, nombre_places, places_dispo, matricule)
+values (6,24, 0, '5896222');
+insert into vehicules (id_vehicule, nombre_places, places_dispo, matricule)
+values (7,24, 7, '4935453');
+insert into vehicules (id_vehicule, nombre_places, places_dispo, matricule)
+values (8,24, 8, '4725919');
+insert into vehicules (id_vehicule, nombre_places, places_dispo, matricule)
+values (9,24, 9, '4808146');
+insert into vehicules (id_vehicule, nombre_places, places_dispo, matricule)
+values (10,24, 10, '4275558');
+
 
 -- insert utiliser
 insert into utiliser (id_vehicule, id_voyage) values (1, 2);
@@ -327,3 +328,4 @@ insert into maintenance (cout, nom_maintenance) values (486561, 'mauris laoreet 
 insert into maintenance (cout, nom_maintenance) values (289644, 'sem fusce consequat nulla');
 insert into maintenance (cout, nom_maintenance) values (318100, 'massa volutpat');
 insert into maintenance (cout, nom_maintenance) values (448912, 'eget eros elementum pellentesque');
+
