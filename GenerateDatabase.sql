@@ -1,4 +1,7 @@
-CREATE DATABASE transport;
+-- CREATE DATABASE transport;
+
+-- Connecting to the database
+-- \c
 
 -- table vehicules
 CREATE TABLE vehicules(
