@@ -2,7 +2,7 @@
 Sujet requête => "3.le nombre de client moyenne par voyage "
 Le code montre le nombre moyenne (AVG) de client pour chaque id_voyage dans la table reserver
 */
-select id_voyage, AVG(count(id_client)) from reserver GROUP BY id_voyage;
+select id_voyage, AVG(id_client) from reserver GROUP BY id_voyage;
 /**
 
  id_voyage |         avg
